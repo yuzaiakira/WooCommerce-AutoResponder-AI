@@ -1,0 +1,52 @@
+{
+    "name": "woocommerce/autoresponder-ai",
+    "description": "AI-powered automatic response generator for WooCommerce product reviews",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Your Name",
+            "email": "your.email@example.com"
+        }
+    ],
+    "keywords": [
+        "wordpress",
+        "woocommerce",
+        "ai",
+        "artificial-intelligence",
+        "reviews",
+        "automation",
+        "openai",
+        "gemini",
+        "openrouter"
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0",
+        "wp-coding-standards/wpcs": "^2.3",
+        "phpcompatibility/phpcompatibility-wp": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "WC_AutoResponder_AI\\": "includes/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "WC_AutoResponder_AI\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "lint": "phpcs --standard=WordPress includes/",
+        "lint-fix": "phpcbf --standard=WordPress includes/",
+        "compatibility": "phpcs --standard=PHPCompatibilityWP --runtime-set testVersion 8.0- includes/"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}

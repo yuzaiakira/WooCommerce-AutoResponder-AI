@@ -1,0 +1,861 @@
+# Copyright (C) 2024 WooCommerce AutoResponder AI
+# This file is distributed under the same license as the WooCommerce AutoResponder AI package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce AutoResponder AI 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce-autoresponder-ai\n"
+"POT-Creation-Date: 2024-01-01 00:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: woocommerce-autoresponder-ai.php:45
+msgid "WooCommerce AutoResponder AI requires WordPress 5.8 or higher."
+msgstr ""
+
+#: woocommerce-autoresponder-ai.php:50
+msgid "WooCommerce AutoResponder AI requires PHP 8.0 or higher."
+msgstr ""
+
+#: woocommerce-autoresponder-ai.php:55
+msgid "WooCommerce AutoResponder AI requires WooCommerce to be installed and activated."
+msgstr ""
+
+#: woocommerce-autoresponder-ai.php:58
+msgid "WooCommerce AutoResponder AI requires WooCommerce 5.0 or higher."
+msgstr ""
+
+#: woocommerce-autoresponder-ai.php:66
+msgid "Plugin Activation Error"
+msgstr ""
+
+#: woocommerce-autoresponder-ai.php:69
+msgid "Return to Plugins"
+msgstr ""
+
+#: includes/Plugin.php:95
+msgid "Generating response..."
+msgstr ""
+
+#: includes/Plugin.php:96
+msgid "An error occurred. Please try again."
+msgstr ""
+
+#: includes/Plugin.php:97
+msgid "Response generated successfully!"
+msgstr ""
+
+#: includes/Plugin.php:98
+msgid "Are you sure you want to approve this response?"
+msgstr ""
+
+#: includes/Plugin.php:99
+msgid "Are you sure you want to reject this response?"
+msgstr ""
+
+#: includes/Plugin.php:120
+msgid "Insufficient permissions."
+msgstr ""
+
+#: includes/Plugin.php:125
+msgid "Invalid review ID."
+msgstr ""
+
+#: includes/Plugin.php:135
+msgid "Failed to generate response."
+msgstr ""
+
+#: includes/Plugin.php:150
+msgid "Invalid data provided."
+msgstr ""
+
+#: includes/Plugin.php:160
+msgid "Response approved and published!"
+msgstr ""
+
+#: includes/Plugin.php:162
+msgid "Failed to approve response."
+msgstr ""
+
+#: includes/Plugin.php:180
+msgid "Response rejected."
+msgstr ""
+
+#: includes/Plugin.php:182
+msgid "Failed to reject response."
+msgstr ""
+
+#: includes/Plugin.php:200
+msgid "Invalid feedback data."
+msgstr ""
+
+#: includes/Plugin.php:210
+msgid "Feedback recorded successfully!"
+msgstr ""
+
+#: includes/Plugin.php:212
+msgid "Failed to record feedback."
+msgstr ""
+
+#: includes/Database.php:85
+msgid "Failed to save AI response to database."
+msgstr ""
+
+#: includes/Settings.php:45
+msgid "General Settings"
+msgstr ""
+
+#: includes/Settings.php:52
+msgid "Enable Automation"
+msgstr ""
+
+#: includes/Settings.php:53
+msgid "Enable automatic AI response generation for new reviews."
+msgstr ""
+
+#: includes/Settings.php:61
+msgid "Workflow Mode"
+msgstr ""
+
+#: includes/Settings.php:64
+msgid "Auto-publish responses"
+msgstr ""
+
+#: includes/Settings.php:65
+msgid "Require approval before publishing"
+msgstr ""
+
+#: includes/Settings.php:66
+msgid "Save as draft only"
+msgstr ""
+
+#: includes/Settings.php:67
+msgid "Choose how AI-generated responses are handled."
+msgstr ""
+
+#: includes/Settings.php:75
+msgid "Response Tone"
+msgstr ""
+
+#: includes/Settings.php:78
+msgid "Professional"
+msgstr ""
+
+#: includes/Settings.php:79
+msgid "Friendly"
+msgstr ""
+
+#: includes/Settings.php:80
+msgid "Casual"
+msgstr ""
+
+#: includes/Settings.php:81
+msgid "Technical"
+msgstr ""
+
+#: includes/Settings.php:82
+msgid "Promotional"
+msgstr ""
+
+#: includes/Settings.php:83
+msgid "Select the tone for AI-generated responses."
+msgstr ""
+
+#: includes/Settings.php:91
+msgid "AI Provider Settings"
+msgstr ""
+
+#: includes/Settings.php:98
+msgid "Primary AI Provider"
+msgstr ""
+
+#: includes/Settings.php:101
+msgid "OpenAI (GPT)"
+msgstr ""
+
+#: includes/Settings.php:102
+msgid "Google Gemini"
+msgstr ""
+
+#: includes/Settings.php:103
+msgid "OpenRouter"
+msgstr ""
+
+#: includes/Settings.php:104
+msgid "Select the primary AI provider for response generation."
+msgstr ""
+
+#: includes/Settings.php:112
+msgid "API Keys"
+msgstr ""
+
+#: includes/Settings.php:119
+msgid "OpenAI API Key"
+msgstr ""
+
+#: includes/Settings.php:120
+msgid "Enter your OpenAI API key. Get one from https://platform.openai.com/api-keys"
+msgstr ""
+
+#: includes/Settings.php:128
+msgid "Google Gemini API Key"
+msgstr ""
+
+#: includes/Settings.php:129
+msgid "Enter your Google Gemini API key. Get one from https://makersuite.google.com/app/apikey"
+msgstr ""
+
+#: includes/Settings.php:137
+msgid "OpenRouter API Key"
+msgstr ""
+
+#: includes/Settings.php:138
+msgid "Enter your OpenRouter API key. Get one from https://openrouter.ai/keys"
+msgstr ""
+
+#: includes/Settings.php:146
+msgid "Product Data Fields"
+msgstr ""
+
+#: includes/Settings.php:153
+msgid "Include Product Fields"
+msgstr ""
+
+#: includes/Settings.php:156
+msgid "Product Title"
+msgstr ""
+
+#: includes/Settings.php:157
+msgid "Product Description"
+msgstr ""
+
+#: includes/Settings.php:158
+msgid "Short Description"
+msgstr ""
+
+#: includes/Settings.php:159
+msgid "Product Attributes"
+msgstr ""
+
+#: includes/Settings.php:160
+msgid "SKU"
+msgstr ""
+
+#: includes/Settings.php:161
+msgid "Price"
+msgstr ""
+
+#: includes/Settings.php:162
+msgid "Categories"
+msgstr ""
+
+#: includes/Settings.php:163
+msgid "Tags"
+msgstr ""
+
+#: includes/Settings.php:164
+msgid "Select which product fields to include when generating AI responses."
+msgstr ""
+
+#: includes/Settings.php:172
+msgid "Privacy & Security"
+msgstr ""
+
+#: includes/Settings.php:179
+msgid "Allow External Data Sharing"
+msgstr ""
+
+#: includes/Settings.php:180
+msgid "Allow sending data to external AI services. Disable for local-only processing."
+msgstr ""
+
+#: includes/Settings.php:188
+msgid "Anonymize Customer Data"
+msgstr ""
+
+#: includes/Settings.php:189
+msgid "Remove or anonymize customer names and personal information from AI prompts."
+msgstr ""
+
+#: includes/Settings.php:197
+msgid "Configure the basic automation settings for AI response generation."
+msgstr ""
+
+#: includes/Settings.php:202
+msgid "Configure AI provider settings and API keys."
+msgstr ""
+
+#: includes/Settings.php:207
+msgid "Enter your API keys for the AI providers you want to use."
+msgstr ""
+
+#: includes/Settings.php:212
+msgid "Select which product information to include when generating AI responses."
+msgstr ""
+
+#: includes/Settings.php:217
+msgid "Configure privacy and security settings for data handling."
+msgstr ""
+
+#: includes/AIProviderManager.php:50
+msgid "All AI providers are unavailable. Please check your API keys and settings."
+msgstr ""
+
+#: includes/AIProviderManager.php:70
+msgid "Provider not found."
+msgstr ""
+
+#: includes/AIProviderManager.php:80
+msgid "Connection test successful!"
+msgstr ""
+
+#: includes/Providers/BaseProvider.php:75
+msgid "Use a professional and formal tone."
+msgstr ""
+
+#: includes/Providers/BaseProvider.php:76
+msgid "Use a friendly and approachable tone."
+msgstr ""
+
+#: includes/Providers/BaseProvider.php:77
+msgid "Use a casual and conversational tone."
+msgstr ""
+
+#: includes/Providers/BaseProvider.php:78
+msgid "Use a technical and detailed tone."
+msgstr ""
+
+#: includes/Providers/BaseProvider.php:79
+msgid "Use a promotional and sales-focused tone."
+msgstr ""
+
+#: includes/Providers/BaseProvider.php:83
+msgid "Product Information:"
+msgstr ""
+
+#: includes/Providers/BaseProvider.php:87
+msgid "Previous Review Responses (for tone reference):"
+msgstr ""
+
+#: includes/Providers/BaseProvider.php:92
+msgid "Response Guidelines:"
+msgstr ""
+
+#: includes/Providers/BaseProvider.php:93
+msgid "Keep the response helpful and relevant to the review."
+msgstr ""
+
+#: includes/Providers/BaseProvider.php:94
+msgid "Do not include personal information about the customer."
+msgstr ""
+
+#: includes/Providers/BaseProvider.php:95
+msgid "If the review is spam or inappropriate, provide a polite generic response."
+msgstr ""
+
+#: includes/Providers/BaseProvider.php:96
+msgid "If you cannot provide a helpful response, suggest contacting customer support."
+msgstr ""
+
+#: includes/Providers/BaseProvider.php:99
+msgid "Include relevant product links when appropriate."
+msgstr ""
+
+#: includes/Providers/BaseProvider.php:103
+msgid "Include contact information for further assistance."
+msgstr ""
+
+#: includes/Providers/OpenAIProvider.php:20
+msgid "OpenAI API key is not configured or external data sharing is disabled."
+msgstr ""
+
+#: includes/Providers/OpenAIProvider.php:40
+msgid "You are a helpful customer service representative for an e-commerce store. You respond to product reviews with helpful, professional, and brand-appropriate messages."
+msgstr ""
+
+#: includes/Providers/OpenAIProvider.php:50
+msgid "Invalid response format from OpenAI API."
+msgstr ""
+
+#: includes/Providers/GeminiProvider.php:20
+msgid "Google Gemini API key is not configured or external data sharing is disabled."
+msgstr ""
+
+#: includes/Providers/GeminiProvider.php:50
+msgid "Invalid response format from Gemini API."
+msgstr ""
+
+#: includes/Providers/OpenRouterProvider.php:20
+msgid "OpenRouter API key is not configured or external data sharing is disabled."
+msgstr ""
+
+#: includes/Providers/OpenRouterProvider.php:40
+msgid "You are a helpful customer service representative for an e-commerce store. You respond to product reviews with helpful, professional, and brand-appropriate messages."
+msgstr ""
+
+#: includes/Providers/OpenRouterProvider.php:50
+msgid "Invalid response format from OpenRouter API."
+msgstr ""
+
+#: includes/ReviewProcessor.php:50
+msgid "Review not found."
+msgstr ""
+
+#: includes/ReviewProcessor.php:200
+msgid "No AI response found for this review."
+msgstr ""
+
+#: includes/ReviewProcessor.php:220
+msgid "No AI response found for this review."
+msgstr ""
+
+#: includes/ReviewProcessor.php:240
+msgid "Product:"
+msgstr ""
+
+#: includes/ReviewProcessor.php:245
+msgid "Description:"
+msgstr ""
+
+#: includes/ReviewProcessor.php:252
+msgid "Short Description:"
+msgstr ""
+
+#: includes/ReviewProcessor.php:260
+msgid "Attributes:"
+msgstr ""
+
+#: includes/ReviewProcessor.php:275
+msgid "SKU:"
+msgstr ""
+
+#: includes/ReviewProcessor.php:281
+msgid "Price:"
+msgstr ""
+
+#: includes/ReviewProcessor.php:287
+msgid "Categories:"
+msgstr ""
+
+#: includes/ReviewProcessor.php:293
+msgid "Tags:"
+msgstr ""
+
+#: includes/ReviewProcessor.php:300
+msgid "Review by %s on %s:"
+msgstr ""
+
+#: includes/ReviewProcessor.php:310
+msgid "Please write a helpful response to this product review:\n\nReview: %s\n\nRating: %d/5 stars"
+msgstr ""
+
+#: includes/ReviewProcessor.php:315
+msgid "Previous reviews for reference:"
+msgstr ""
+
+#: includes/ReviewProcessor.php:320
+msgid "Thank you for your review! We appreciate your feedback and will use it to improve our products and services."
+msgstr ""
+
+#: includes/ReviewProcessor.php:323
+msgid "Thank you for taking the time to share your experience with us. Your feedback is valuable to our team."
+msgstr ""
+
+#: includes/ReviewProcessor.php:326
+msgid "We appreciate your review and feedback. If you have any questions or need assistance, please don't hesitate to contact our customer support team."
+msgstr ""
+
+#: includes/ReviewProcessor.php:340
+msgid "Response not found."
+msgstr ""
+
+#: includes/ReviewProcessor.php:345
+msgid "Review not found."
+msgstr ""
+
+#: includes/ReviewProcessor.php:350
+msgid "[Response generated with AI assistance]"
+msgstr ""
+
+#: includes/ReviewProcessor.php:375
+msgid "Failed to publish response comment."
+msgstr ""
+
+#: includes/Admin.php:25
+msgid "WooCommerce AutoResponder AI"
+msgstr ""
+
+#: includes/Admin.php:26
+msgid "AI Reviews"
+msgstr ""
+
+#: includes/Admin.php:33
+msgid "Dashboard"
+msgstr ""
+
+#: includes/Admin.php:42
+msgid "Settings"
+msgstr ""
+
+#: includes/Admin.php:51
+msgid "AI Responses"
+msgstr ""
+
+#: includes/Admin.php:60
+msgid "Activity Logs"
+msgstr ""
+
+#: includes/Admin.php:80
+msgid "Security check failed."
+msgstr ""
+
+#: includes/Admin.php:85
+msgid "WooCommerce AutoResponder AI Dashboard"
+msgstr ""
+
+#: includes/Admin.php:90
+msgid "Total Responses"
+msgstr ""
+
+#: includes/Admin.php:95
+msgid "Pending Approval"
+msgstr ""
+
+#: includes/Admin.php:100
+msgid "Approved"
+msgstr ""
+
+#: includes/Admin.php:105
+msgid "Avg. Response Time"
+msgstr ""
+
+#: includes/Admin.php:112
+msgid "AI Provider Status"
+msgstr ""
+
+#: includes/Admin.php:125
+msgid "Available"
+msgstr ""
+
+#: includes/Admin.php:125
+msgid "Unavailable"
+msgstr ""
+
+#: includes/Admin.php:133
+msgid "Recent Activity"
+msgstr ""
+
+#: includes/Admin.php:140
+msgid "Feedback Statistics"
+msgstr ""
+
+#: includes/Admin.php:145
+msgid "Positive Feedback:"
+msgstr ""
+
+#: includes/Admin.php:150
+msgid "Negative Feedback:"
+msgstr ""
+
+#: includes/Admin.php:155
+msgid "Positive Rate:"
+msgstr ""
+
+#: includes/Admin.php:163
+msgid "Quick Actions"
+msgstr ""
+
+#: includes/Admin.php:166
+msgid "Configure Settings"
+msgstr ""
+
+#: includes/Admin.php:169
+msgid "View AI Responses"
+msgstr ""
+
+#: includes/Admin.php:172
+msgid "Manage Reviews"
+msgstr ""
+
+#: includes/Admin.php:180
+msgid "WooCommerce AutoResponder AI Settings"
+msgstr ""
+
+#: includes/Admin.php:190
+msgid "Test AI Providers"
+msgstr ""
+
+#: includes/Admin.php:191
+msgid "Test your AI provider connections to ensure they are working correctly."
+msgstr ""
+
+#: includes/Admin.php:197
+msgid "Test Provider"
+msgstr ""
+
+#: includes/Admin.php:198
+msgid "OpenAI"
+msgstr ""
+
+#: includes/Admin.php:199
+msgid "Google Gemini"
+msgstr ""
+
+#: includes/Admin.php:200
+msgid "OpenRouter"
+msgstr ""
+
+#: includes/Admin.php:201
+msgid "Test Connection"
+msgstr ""
+
+#: includes/Admin.php:210
+msgid "AI Responses"
+msgstr ""
+
+#: includes/Admin.php:215
+msgid "Pending"
+msgstr ""
+
+#: includes/Admin.php:218
+msgid "Approved"
+msgstr ""
+
+#: includes/Admin.php:221
+msgid "Rejected"
+msgstr ""
+
+#: includes/Admin.php:230
+msgid "Product"
+msgstr ""
+
+#: includes/Admin.php:231
+msgid "Review"
+msgstr ""
+
+#: includes/Admin.php:232
+msgid "AI Response"
+msgstr ""
+
+#: includes/Admin.php:233
+msgid "Provider"
+msgstr ""
+
+#: includes/Admin.php:234
+msgid "Status"
+msgstr ""
+
+#: includes/Admin.php:235
+msgid "Created"
+msgstr ""
+
+#: includes/Admin.php:236
+msgid "Actions"
+msgstr ""
+
+#: includes/Admin.php:240
+msgid "No responses found."
+msgstr ""
+
+#: includes/Admin.php:260
+msgid "Approve"
+msgstr ""
+
+#: includes/Admin.php:263
+msgid "Reject"
+msgstr ""
+
+#: includes/Admin.php:266
+msgid "View"
+msgstr ""
+
+#: includes/Admin.php:275
+msgid "Activity Logs"
+msgstr ""
+
+#: includes/Admin.php:282
+msgid "Action"
+msgstr ""
+
+#: includes/Admin.php:283
+msgid "User"
+msgstr ""
+
+#: includes/Admin.php:284
+msgid "Product"
+msgstr ""
+
+#: includes/Admin.php:285
+msgid "Details"
+msgstr ""
+
+#: includes/Admin.php:286
+msgid "IP Address"
+msgstr ""
+
+#: includes/Admin.php:287
+msgid "Date"
+msgstr ""
+
+#: includes/Admin.php:291
+msgid "No logs found."
+msgstr ""
+
+#: includes/Admin.php:300
+msgid "System"
+msgstr ""
+
+#: includes/Admin.php:315
+msgid "Generate AI Response"
+msgstr ""
+
+#: includes/Admin.php:325
+msgid "AI Generated Response"
+msgstr ""
+
+#: includes/Admin.php:330
+msgid "Generating response..."
+msgstr ""
+
+#: includes/Admin.php:335
+msgid "Approve & Publish"
+msgstr ""
+
+#: includes/Admin.php:338
+msgid "Reject"
+msgstr ""
+
+#: includes/Admin.php:341
+msgid "Edit"
+msgstr ""
+
+#: includes/Admin.php:360
+msgid "No recent activity."
+msgstr ""
+
+#: includes/Admin.php:365
+msgid "ago"
+msgstr ""
+
+#: includes/Admin.php:375
+msgid "Connection test successful!"
+msgstr ""
+
+#: includes/Admin.php:380
+msgid "Connection test failed."
+msgstr ""
+
+#: includes/Cron.php:150
+msgid "High Volume Alert - %d AI Responses Generated"
+msgstr ""
+
+#: includes/Cron.php:155
+msgid "Your WooCommerce AutoResponder AI has generated %d responses in the last 24 hours, which exceeds your threshold of %d responses."
+msgstr ""
+
+#: includes/Cron.php:158
+msgid "You may want to review your automation settings or consider upgrading your plan if you're using paid AI services."
+msgstr ""
+
+#: includes/Cron.php:180
+msgid "Error Alert - %d Errors in Last Hour"
+msgstr ""
+
+#: includes/Cron.php:185
+msgid "Your WooCommerce AutoResponder AI has encountered %d errors in the last hour. Please check your plugin settings and API keys."
+msgstr ""
+
+#: includes/Cron.php:188
+msgid "You can view detailed error logs in the plugin dashboard."
+msgstr ""
+
+#: includes/Providers/BaseProvider.php:60
+msgid "API request failed."
+msgstr ""
+
+#: includes/Providers/BaseProvider.php:65
+msgid "API Error (%d): %s"
+msgstr ""
+
+#: includes/Providers/BaseProvider.php:70
+msgid "Invalid JSON response from API."
+msgstr ""
+
+#: includes/Providers/OpenAIProvider.php:75
+msgid "This is a test message. Please respond with \"Test successful\" to confirm the connection is working."
+msgstr ""
+
+#: includes/Providers/GeminiProvider.php:75
+msgid "This is a test message. Please respond with \"Test successful\" to confirm the connection is working."
+msgstr ""
+
+#: includes/Providers/OpenRouterProvider.php:75
+msgid "This is a test message. Please respond with \"Test successful\" to confirm the connection is working."
+msgstr ""
+
+#: includes/ReviewProcessor.php:135
+msgid "Failed to generate AI response."
+msgstr ""
+
+#: includes/ReviewProcessor.php:200
+msgid "No AI response found for this review."
+msgstr ""
+
+#: includes/ReviewProcessor.php:220
+msgid "No AI response found for this review."
+msgstr ""
+
+#: includes/ReviewProcessor.php:340
+msgid "Response not found."
+msgstr ""
+
+#: includes/ReviewProcessor.php:345
+msgid "Review not found."
+msgstr ""
+
+#: includes/ReviewProcessor.php:375
+msgid "Failed to publish response comment."
+msgstr ""
+
+#: includes/Admin.php:360
+msgid "No recent activity."
+msgstr ""
+
+#: includes/Admin.php:365
+msgid "ago"
+msgstr ""
+
+#: includes/Admin.php:375
+msgid "Connection test successful!"
+msgstr ""
+
+#: includes/Admin.php:380
+msgid "Connection test failed."
+msgstr ""
+
+#: includes/Cron.php:150
+msgid "High Volume Alert - %d AI Responses Generated"
+msgstr ""
+
+#: includes/Cron.php:155
+msgid "Your WooCommerce AutoResponder AI has generated %d responses in the last 24 hours, which exceeds your threshold of %d responses."
+msgstr ""
+
+#: includes/Cron.php:158
+msgid "You may want to review your automation settings or consider upgrading your plan if you're using paid AI services."
+msgstr ""
+
+#: includes/Cron.php:180
+msgid "Error Alert - %d Errors in Last Hour"
+msgstr ""
+
+#: includes/Cron.php:185
+msgid "Your WooCommerce AutoResponder AI has encountered %d errors in the last hour. Please check your plugin settings and API keys."
+msgstr ""
+
+#: includes/Cron.php:188
+msgid "You can view detailed error logs in the plugin dashboard."
+msgstr ""
