@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: WooCommerce AutoResponder AI
- * Plugin URI: https://rtl-themes.com/
+ * Plugin URI: https://github.com/yuzaiakira/WooCommerce-AutoResponder-AI
  * Description: Automatically generate AI-powered responses to WooCommerce product reviews using OpenAI, Gemini, or OpenRouter.
  * Version: 1.0.0
  * Author: Akira Yuzai
