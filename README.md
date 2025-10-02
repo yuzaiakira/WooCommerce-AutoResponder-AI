@@ -199,7 +199,7 @@ All data is processed according to WordPress privacy standards and GDPR requirem
 
 ### Contributing
 
-We welcome contributions! Please see our [contributing guidelines](https://github.com/yuzaiakira/woocommerce-autoresponder-ai/blob/main/CONTRIBUTING.md) for details.
+We welcome contributions! Please see our [contributing guidelines](CONTRIBUTING.md) for details on how to get started, coding standards, and the development process.
 
 ### Development Setup
 
