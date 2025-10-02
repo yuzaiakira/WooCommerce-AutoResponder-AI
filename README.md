@@ -217,6 +217,11 @@ We welcome contributions! Please see our [contributing guidelines](https://githu
 - Advanced analytics and reporting
 - Custom AI model training
 
+### TODO
+
+- Make agent for auto answering
+- Improve plugin cache for API and speed up plugin
+
 ## Credits
 
 Developed by [Akira Yuzai](https://yuzaiakira.github.io) for the WordPress community.
